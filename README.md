@@ -14,12 +14,12 @@ Machine Learning model training and evaluation.
 Fast and accurate prediction results.
 
 Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Flask
+Python,
+Pandas,
+NumPy,
+Scikit-learn,
+Flask,
 HTML/CSS
-Project Goal
 
+Project Goal
 The goal of this project is to build an intelligent system that can assist healthcare professionals and individuals in identifying potential heart disease risks at an early stage, enabling timely medical intervention and improved patient outcomes.
