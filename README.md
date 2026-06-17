@@ -1,25 +1,87 @@
-Introduction
+# Heart Disease Prediction ❤️
 
-Heart Disease Prediction is a Machine Learning project designed to predict the likelihood of heart disease based on various medical parameters such as age, sex, chest pain type, blood pressure, cholesterol level, fasting blood sugar, and other clinical attributes.
+## Project Overview
 
-The primary objective of this project is to assist in the early detection of heart-related health risks by leveraging data-driven predictive analytics. The model has been trained on a heart disease dataset and uses machine learning algorithms to analyze patient information and generate predictions.
+Heart Disease Prediction is a Machine Learning project that predicts the likelihood of heart disease based on various medical attributes. The model is trained on healthcare data and helps identify potential heart disease risks using predictive analytics.
 
-This project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis, feature selection, model training, evaluation, and deployment. It showcases the practical application of machine learning in the healthcare domain and highlights how predictive models can support medical decision-making.
+## Features
 
-Features:
-Predicts the risk of heart disease based on patient health data.
-User-friendly interface for entering medical parameters.
-Data preprocessing and feature engineering.
-Machine Learning model training and evaluation.
-Fast and accurate prediction results.
+* Predicts the presence of heart disease using patient health data
+* Data preprocessing and feature engineering
+* Machine Learning-based classification
+* User-friendly prediction workflow
+* Model performance evaluation
 
-Technologies Used:
-Python,
-Pandas,
-NumPy,
-Scikit-learn,
-Flask,
-HTML/CSS
+## Technologies Used
 
-Project Goal:
-The goal of this project is to build an intelligent system that can assist healthcare professionals and individuals in identifying potential heart disease risks at an early stage, enabling timely medical intervention and improved patient outcomes.
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+## Dataset Features
+
+The model uses medical parameters such as:
+
+* Age
+* Sex
+* Chest Pain Type
+* Resting Blood Pressure
+* Cholesterol Level
+* Fasting Blood Sugar
+* Maximum Heart Rate Achieved
+* Exercise-Induced Angina
+* ST Depression
+* Other clinical indicators
+
+## Project Workflow
+
+1. Data Collection
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Selection
+5. Model Training
+6. Model Evaluation
+7. Prediction Generation
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/chatingoel/Heart-Disease-Prediction.git
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Project
+
+```bash
+python app.py
+```
+
+## Results
+
+The trained machine learning model analyzes patient health information and predicts whether a person is at risk of heart disease.
+
+## Future Improvements
+
+* Web-based user interface
+* Deep Learning implementation
+* Real-time healthcare integration
+* Improved prediction accuracy
+
+## Disclaimer
+
+This project is developed for educational and research purposes only and should not be used as a substitute for professional medical diagnosis.
+
+## Author
+
+Chatin Goyal
